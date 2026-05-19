@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Nour Alsham Restaurant | Speisekarte",
+    "description": "Nour Alsham Restaurant – Syrisch-orientalische Küche in Istanbul"
+  },
+  "restaurant": {
+    "nav": {
+      "home": "Start",
+      "menu": "Menü",
+      "cart": "Warenkorb",
+      "language": "Sprache",
+      "more": "Mehr"
+    },
+    "sideMenu": {
+      "close": "Schließen",
+      "call": "Anruf",
+      "whatsapp": "WhatsApp",
+      "location": "Standort",
+      "video": "Video"
+    },
+    "item": {
+      "close": "Schließen",
+      "addToCart": "In den Warenkorb",
+      "increase": "Mehr",
+      "decrease": "Weniger"
+    },
+    "cart": {
+      "title": "Warenkorb",
+      "empty": "Warenkorb ist leer",
+      "total": "Gesamt",
+      "clear": "Leeren"
+    },
+    "footer": {
+      "facebookTitle": "Folgen Sie uns auf Facebook",
+      "facebookSubtitle": "Für unsere Angebote",
+      "visit": "Wir freuen uns auf Ihren Besuch",
+      "credits": "Entwicklung & Design",
+      "creditsBrand": "Front Web"
+    }
+  }
+}

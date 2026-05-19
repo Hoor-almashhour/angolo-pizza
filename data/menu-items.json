@@ -1,194 +1,182 @@
 [
   {
-    "categoryId": "9344db83-5465-4d23-84ee-601e7e56661d",
-    "name": {
-      "ar": "مارغريتا كلاسيك",
-      "de": "Classic Margherita"
-    },
-    "description": {
-      "ar": "صلصة طماطم، موزاريلا طازجة، ريحان وزيت زيتون",
-      "de": "Tomato sauce, fresh mozzarella, basil and olive oil"
-    },
-    "price": 12.9,
-    "image": "https://picsum.photos/seed/margherita/600/600",
+    "id": "item-sh1",
+    "categoryId": "cat-shawarma",
+    "name": { "ar": "أصابع شاورما", "de": "Shawarma-Finger" },
+    "description": { "ar": "شاورما مقطعة مع صلصة خاصة", "de": "Shawarma-Stücke mit Spezialsoße" },
+    "price": 80,
+    "image": "https://images.unsplash.com/photo-1529006557810-274dbfdd6388?w=200&h=200&fit=crop",
     "featured": true,
-    "order": 1,
-    "id": "9bdb8309-6fcc-45ca-85dc-744bc36db2ab"
+    "order": 1
   },
   {
-    "categoryId": "9344db83-5465-4d23-84ee-601e7e56661d",
-    "name": {
-      "ar": "بيبروني فاخر",
-      "de": "Premium Pepperoni"
-    },
-    "description": {
-      "ar": "بيبروني مدخن وجبنة موزاريلا ذائبة",
-      "de": "Smoked pepperoni and melted mozzarella"
-    },
-    "price": 14.5,
-    "image": "https://picsum.photos/seed/pepperoni/600/600",
+    "id": "item-sh2",
+    "categoryId": "cat-shawarma",
+    "name": { "ar": "شاورما - ساندويتش", "de": "Shawarma-Sandwich" },
+    "description": { "ar": "ساندويتش شاورما كامل", "de": "Vollständiges Shawarma-Sandwich" },
+    "price": 110,
+    "image": "https://images.unsplash.com/photo-1561651183-34bea65f8b9b?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 2,
-    "id": "7e34f540-a660-4043-a34e-1e3178dad20f"
+    "order": 2
   },
   {
-    "categoryId": "9344db83-5465-4d23-84ee-601e7e56661d",
-    "name": {
-      "ar": "خضار مشوية",
-      "de": "Grilled Vegetables"
-    },
-    "description": {
-      "ar": "كوسا، باذنجان، فطر وصلصة بيستو",
-      "de": "Zucchini, eggplant, mushrooms and pesto"
-    },
-    "price": 13.5,
-    "image": "https://picsum.photos/seed/veg-pizza/600/600",
+    "id": "item-sh3",
+    "categoryId": "cat-shawarma",
+    "name": { "ar": "شاورما - ساندويتش دبل", "de": "Shawarma-Doppel-Sandwich" },
+    "description": { "ar": "كمية مضاعفة من الشاورما", "de": "Doppelte Portion Shawarma" },
+    "price": 150,
+    "image": "https://images.unsplash.com/photo-1594212699903-ef8f743c8838?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 3,
-    "id": "97129734-1f2c-4a45-835f-c97eef429d3a"
+    "order": 3
   },
   {
-    "categoryId": "62af8a78-7a39-43a5-993d-4923ac2dbb0f",
-    "name": {
-      "ar": "سباغيتي بولونيز",
-      "de": "Spaghetti Bolognese"
-    },
-    "description": {
-      "ar": "صلصة لحم مطهية ببطء مع بارميزان",
-      "de": "Slow-cooked meat sauce with parmesan"
-    },
-    "price": 13.9,
-    "image": "https://picsum.photos/seed/bolognese/600/600",
+    "id": "item-sh4",
+    "categoryId": "cat-shawarma",
+    "name": { "ar": "شاورما مع بطاطا - ساندويتش", "de": "Shawarma mit Pommes" },
+    "description": { "ar": "شاورما مع بطاطا مقلية", "de": "Shawarma mit Pommes frites" },
+    "price": 140,
+    "image": "https://images.unsplash.com/photo-1633321081448-807328e67e20?w=200&h=200&fit=crop",
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "item-w1",
+    "categoryId": "cat-western",
+    "name": { "ar": "برجر كلاسيك", "de": "Classic Burger" },
+    "description": { "ar": "لحم بقري مع جبنة وخضار", "de": "Rindfleisch mit Käse und Gemüse" },
+    "price": 120,
+    "image": "https://images.unsplash.com/photo-1568901347635-c4030f9f8426?w=200&h=200&fit=crop",
     "featured": true,
-    "order": 1,
-    "id": "5b0d4ba1-818a-4c72-a8a7-f469ad63bfe1"
+    "order": 1
   },
   {
-    "categoryId": "62af8a78-7a39-43a5-993d-4923ac2dbb0f",
-    "name": {
-      "ar": "فيتوتشيني ألفريدو",
-      "de": "Fettuccine Alfredo"
-    },
-    "description": {
-      "ar": "كريمة طازجة، زبدة إيطالية وثوم",
-      "de": "Fresh cream, Italian butter and garlic"
-    },
-    "price": 12.5,
-    "image": "https://picsum.photos/seed/alfredo/600/600",
+    "id": "item-w2",
+    "categoryId": "cat-western",
+    "name": { "ar": "بطاطا مقلية", "de": "Pommes frites" },
+    "description": { "ar": "بطاطا مقرمشة", "de": "Knusprige Pommes" },
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 2,
-    "id": "cd7a5499-5eca-47af-89e3-86a12a0ae7e3"
+    "order": 2
   },
   {
-    "categoryId": "62af8a78-7a39-43a5-993d-4923ac2dbb0f",
-    "name": {
-      "ar": "لازانيا",
-      "de": "Lasagna"
-    },
-    "description": {
-      "ar": "طبقات بشاميل ولحم وجبنة ذهبية",
-      "de": "Layers of béchamel, meat and golden cheese"
-    },
-    "price": 15.5,
-    "image": "https://picsum.photos/seed/lasagna/600/600",
-    "featured": false,
-    "order": 3,
-    "id": "1dc6a70b-d658-46a8-af52-d47fd90acaa4"
-  },
-  {
-    "categoryId": "56f180d3-456a-4a31-9f2d-5a02edabd8fd",
-    "name": {
-      "ar": "عصير برتقال",
-      "de": "Orange Juice"
-    },
-    "description": {
-      "ar": "معصور طازج يومياً",
-      "de": "Freshly squeezed daily"
-    },
-    "price": 5.5,
-    "image": "https://picsum.photos/seed/orange-juice/600/600",
+    "id": "item-lg1",
+    "categoryId": "cat-lamb-grills",
+    "name": { "ar": "كباب خروف", "de": "Lamm-Kebab" },
+    "description": { "ar": "4 أسياخ لحم خروف", "de": "4 Spieße Lammfleisch" },
+    "price": 280,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=200&fit=crop",
     "featured": true,
-    "order": 1,
-    "id": "a2d84c65-68ec-47f8-83f8-20b929cd9e99"
+    "order": 1
   },
   {
-    "categoryId": "56f180d3-456a-4a31-9f2d-5a02edabd8fd",
-    "name": {
-      "ar": "موهيتو نعناع",
-      "de": "Mint Mojito"
-    },
-    "description": {
-      "ar": "ليمون طازج ونعناع وثلج",
-      "de": "Fresh lemon, mint and ice"
-    },
-    "price": 6.9,
-    "image": "https://picsum.photos/seed/mojito/600/600",
+    "id": "item-lg2",
+    "categoryId": "cat-lamb-grills",
+    "name": { "ar": "ريش خروف", "de": "Lammkoteletts" },
+    "description": { "ar": "ريش مشوية على الفحم", "de": "Vom Grill gegrillte Koteletts" },
+    "price": 320,
+    "image": "https://images.unsplash.com/photo-1529692236671-f1f6c968fd66?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 2,
-    "id": "704d1ff4-95a4-4e13-b344-1a39c4a20e61"
+    "order": 2
   },
   {
-    "categoryId": "56f180d3-456a-4a31-9f2d-5a02edabd8fd",
-    "name": {
-      "ar": "إسبريسو",
-      "de": "Espresso"
-    },
-    "description": {
-      "ar": "قهوة إيطالية أصيلة",
-      "de": "Authentic Italian coffee"
-    },
-    "price": 3.5,
-    "image": "https://picsum.photos/seed/espresso/600/600",
-    "featured": false,
-    "order": 3,
-    "id": "d539556c-5719-43dc-aa65-70bd7a56fe10"
-  },
-  {
-    "categoryId": "e925f132-aa84-414f-b44f-41a58eb7e2a9",
-    "name": {
-      "ar": "تيراميسو",
-      "de": "Tiramisu"
-    },
-    "description": {
-      "ar": "كلاسيكي إيطالي بقهوة وماسكاربوني",
-      "de": "Classic Italian with coffee and mascarpone"
-    },
-    "price": 7.9,
-    "image": "https://picsum.photos/seed/tiramisu/600/600",
+    "id": "item-cg1",
+    "categoryId": "cat-chicken-grills",
+    "name": { "ar": "شيش طاووق", "de": "Shish Tawook" },
+    "description": { "ar": "دجاج متبل مشوي", "de": "Gewürztes gegrilltes Hähnchen" },
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394dd95d?w=200&h=200&fit=crop",
     "featured": true,
-    "order": 1,
-    "id": "d76e46fb-9a37-4d4b-b0a1-8d25fea666c3"
+    "order": 1
   },
   {
-    "categoryId": "e925f132-aa84-414f-b44f-41a58eb7e2a9",
-    "name": {
-      "ar": "بانّا كوتا",
-      "de": "Panna Cotta"
-    },
-    "description": {
-      "ar": "كريمة فانيليا مع توت طازج",
-      "de": "Vanilla cream with fresh berries"
-    },
-    "price": 6.5,
-    "image": "https://picsum.photos/seed/pannacotta/600/600",
+    "id": "item-cg2",
+    "categoryId": "cat-chicken-grills",
+    "name": { "ar": "أجنحة دجاج", "de": "Hähnchenflügel" },
+    "description": { "ar": "أجنحة مشوية بالصلصة", "de": "Gegrillte Flügel mit Soße" },
+    "price": 95,
+    "image": "https://images.unsplash.com/photo-1608039819574-09f27f4e1f43?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 2,
-    "id": "70cbb7b7-684a-489a-92bc-be49e68d802d"
+    "order": 2
   },
   {
-    "categoryId": "e925f132-aa84-414f-b44f-41a58eb7e2a9",
-    "name": {
-      "ar": "تشيز كيك",
-      "de": "Cheesecake"
-    },
-    "description": {
-      "ar": "تشيز كيك نيويورك بصلصة التوت",
-      "de": "New York cheesecake with berry sauce"
-    },
-    "price": 7.5,
-    "image": "https://picsum.photos/seed/cheesecake/600/600",
+    "id": "item-kb1",
+    "categoryId": "cat-kibbeh",
+    "name": { "ar": "كبة مشوية", "de": "Gegrillte Kibbeh" },
+    "description": { "ar": "كبة لحم على الفحم", "de": "Fleisch-Kibbeh vom Grill" },
+    "price": 90,
+    "image": "https://images.unsplash.com/photo-1626200419199-391ae4be7f90?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-ch1",
+    "categoryId": "cat-chicken",
+    "name": { "ar": "دجاجة مشوية كاملة", "de": "Ganzes Grillhähnchen" },
+    "description": { "ar": "دجاجة كاملة مع ثوم", "de": "Ganzes Hähnchen mit Knoblauch" },
+    "price": 250,
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c706ae83?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-or1",
+    "categoryId": "cat-oriental",
+    "name": { "ar": "يبرق ورق عنب", "de": "Gefüllte Weinblätter" },
+    "description": { "ar": "ورق عنب محشي بالأرز", "de": "Mit Reis gefüllte Weinblätter" },
+    "price": 75,
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-mn1",
+    "categoryId": "cat-mandi",
+    "name": { "ar": "مندي لحم", "de": "Mandi mit Fleisch" },
+    "description": { "ar": "أرز مندي مع لحم غنم", "de": "Mandi-Reis mit Lamm" },
+    "price": 220,
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008592f82?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-mn2",
+    "categoryId": "cat-mandi",
+    "name": { "ar": "مندي دجاج", "de": "Mandi mit Hähnchen" },
+    "description": { "ar": "أرز مندي مع دجاج", "de": "Mandi-Reis mit Hähnchen" },
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=200&h=200&fit=crop",
     "featured": false,
-    "order": 3,
-    "id": "988b38d3-f22c-4802-8b8b-03eb72b008ee"
+    "order": 2
+  },
+  {
+    "id": "item-ck1",
+    "categoryId": "cat-cocktails",
+    "name": { "ar": "كوكتيل فواكه", "de": "Fruchtcocktail" },
+    "description": { "ar": "مزيج فواكه موسمية", "de": "Saisonale Fruchtmischung" },
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-ju1",
+    "categoryId": "cat-juices",
+    "name": { "ar": "عصير برتقال", "de": "Orangensaft" },
+    "description": { "ar": "معصور طازج", "de": "Frisch gepresst" },
+    "price": 40,
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4fd54eb30?w=200&h=200&fit=crop",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "item-ju2",
+    "categoryId": "cat-juices",
+    "name": { "ar": "عصير ليمون بالنعناع", "de": "Zitronen-Minzsaft" },
+    "description": { "ar": "منعش وطبيعي", "de": "Erfrischend und natürlich" },
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1622597467830-2a4d4ae1b8e5?w=200&h=200&fit=crop",
+    "featured": false,
+    "order": 2
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "مطعم نور الشام | قائمة الطعام",
+    "description": "مطعم نور الشام - أشهى المأكولات السورية والشرقية في اسطنبول"
+  },
+  "restaurant": {
+    "nav": {
+      "home": "الرئيسية",
+      "menu": "المنيو",
+      "cart": "السلة",
+      "language": "اللغة",
+      "more": "المزيد"
+    },
+    "sideMenu": {
+      "close": "إغلاق",
+      "call": "اتصال",
+      "whatsapp": "واتساب",
+      "location": "الموقع",
+      "video": "فيديو"
+    },
+    "item": {
+      "close": "إغلاق",
+      "addToCart": "أضف الى السلة",
+      "increase": "زيادة",
+      "decrease": "نقصان"
+    },
+    "cart": {
+      "title": "سلة الطلبات",
+      "empty": "السلة فارغة",
+      "total": "المجموع",
+      "clear": "إفراغ"
+    },
+    "footer": {
+      "facebookTitle": "تابعوا صفحتنا على فيسبوك",
+      "facebookSubtitle": "لمعرفة عروضنا",
+      "visit": "نتشرف بحضوركم",
+      "credits": "برمجة و تصميم",
+      "creditsBrand": "فرونت ويب"
+    }
+  }
+}

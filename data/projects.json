@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "title": {
+      "ar": "هوية بصرية فاخرة",
+      "de": "Luxury Brand Identity"
+    },
+    "description": {
+      "ar": "تصميم هوية متكاملة لعلامة تجارية راقية",
+      "de": "Complete visual identity for a premium brand"
+    },
+    "category": "branding",
+    "image": "https://picsum.photos/seed/proj1/800/600",
+    "featured": true,
+    "id": "0a47068f-f28b-4fec-8171-6c6361e7741a",
+    "createdAt": "2026-05-19T23:19:58.865Z"
+  }
+]
