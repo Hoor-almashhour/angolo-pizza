@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "pizza",
+    "name": {
+      "ar": "بيتزا",
+      "de": "Pizza"
+    },
+    "description": {
+      "ar": "بيتزا إيطالية فاخرة من الفرن الحجري",
+      "de": "Premium Italian pizza from our stone oven"
+    },
+    "image": "https://picsum.photos/seed/pizza-cat/800/600",
+    "order": 1,
+    "id": "9344db83-5465-4d23-84ee-601e7e56661d"
+  },
+  {
+    "slug": "pasta",
+    "name": {
+      "ar": "باستا",
+      "de": "Pasta"
+    },
+    "description": {
+      "ar": "معكرونة طازجة بصلصات إيطالية أصيلة",
+      "de": "Fresh pasta with authentic Italian sauces"
+    },
+    "image": "https://picsum.photos/seed/pasta-cat/800/600",
+    "order": 2,
+    "id": "62af8a78-7a39-43a5-993d-4923ac2dbb0f"
+  },
+  {
+    "slug": "drinks",
+    "name": {
+      "ar": "مشروبات",
+      "de": "Getränke"
+    },
+    "description": {
+      "ar": "عصائر طازجة ومشروبات منعشة",
+      "de": "Fresh juices and refreshing beverages"
+    },
+    "image": "https://picsum.photos/seed/drinks-cat/800/600",
+    "order": 3,
+    "id": "56f180d3-456a-4a31-9f2d-5a02edabd8fd"
+  },
+  {
+    "slug": "sweets",
+    "name": {
+      "ar": "حلويات",
+      "de": "Desserts"
+    },
+    "description": {
+      "ar": "حلويات إيطالية فاخرة تُحضّر يومياً",
+      "de": "Premium Italian desserts made daily"
+    },
+    "image": "https://picsum.photos/seed/sweets-cat/800/600",
+    "order": 4,
+    "id": "e925f132-aa84-414f-b44f-41a58eb7e2a9"
+  }
+]

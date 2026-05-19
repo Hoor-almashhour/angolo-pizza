@@ -1,0 +1,62 @@
+[
+  {
+    "title": {
+      "ar": "عمل فني 6",
+      "de": "Artwork 6"
+    },
+    "image": "https://picsum.photos/seed/gal6/600/700",
+    "category": "studio",
+    "id": "204c024c-5f8a-4d64-acee-f239a8a91015",
+    "createdAt": "2026-05-18T19:48:16.237Z"
+  },
+  {
+    "title": {
+      "ar": "عمل فني 5",
+      "de": "Artwork 5"
+    },
+    "image": "https://picsum.photos/seed/gal5/600/650",
+    "category": "events",
+    "id": "bc26a236-7aad-41ba-81fe-43108b8973e7",
+    "createdAt": "2026-05-18T19:48:16.208Z"
+  },
+  {
+    "title": {
+      "ar": "عمل فني 4",
+      "de": "Artwork 4"
+    },
+    "image": "https://picsum.photos/seed/gal4/600/600",
+    "category": "studio",
+    "id": "b3764b89-ecdb-4354-9034-12f889ea28c8",
+    "createdAt": "2026-05-18T19:48:16.182Z"
+  },
+  {
+    "title": {
+      "ar": "عمل فني 3",
+      "de": "Artwork 3"
+    },
+    "image": "https://picsum.photos/seed/gal3/600/550",
+    "category": "events",
+    "id": "d7800835-9dae-49e4-a554-ebf496944bb1",
+    "createdAt": "2026-05-18T19:48:16.157Z"
+  },
+  {
+    "title": {
+      "ar": "عمل فني 2",
+      "de": "Artwork 2"
+    },
+    "image": "https://picsum.photos/seed/gal2/600/500",
+    "category": "studio",
+    "id": "323de67f-6727-4aa7-ae1d-820970f14c5d",
+    "createdAt": "2026-05-18T19:48:16.108Z"
+  },
+  {
+    "title": {
+      "ar": "عمل فني 1",
+      "de": "Artwork 1"
+    },
+    "image": "https://picsum.photos/seed/gal1/600/450",
+    "category": "events",
+    "id": "1c164385-d82b-41ad-b1f4-1800b23fc1b4",
+    "createdAt": "2026-05-18T19:48:16.081Z"
+  }
+]
