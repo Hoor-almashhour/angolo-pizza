@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Nour Alsham Restaurant | Speisekarte",
-    "description": "Nour Alsham Restaurant – Syrisch-orientalische Küche in Istanbul"
+    "title": "Angolo Della Pizza | Speisekarte",
+    "description": "Angolo Della Pizza – Italienische Pizza und Pasta in Burgkunstadt"
   },
   "restaurant": {
     "nav": {
@@ -11,9 +11,14 @@
       "language": "Sprache",
       "more": "Mehr"
     },
+    "languageMenu": {
+      "title": "Sprache",
+      "arabic": "Arabische Sprache",
+      "german": "Deutsche Sprache",
+      "close": "Schließen"
+    },
     "sideMenu": {
       "close": "Schließen",
-      "call": "Anruf",
       "whatsapp": "WhatsApp",
       "location": "Standort",
       "video": "Video"

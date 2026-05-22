@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "مطعم نور الشام | قائمة الطعام",
-    "description": "مطعم نور الشام - أشهى المأكولات السورية والشرقية في اسطنبول"
+    "title": "Angolo Della Pizza | قائمة الطعام",
+    "description": "Angolo Della Pizza - بيتزا ومعكرونة إيطالية في Burgkunstadt"
   },
   "restaurant": {
     "nav": {
@@ -11,9 +11,14 @@
       "language": "اللغة",
       "more": "المزيد"
     },
+    "languageMenu": {
+      "title": "اللغة",
+      "arabic": "اللغة العربية",
+      "german": "اللغة الألمانية",
+      "close": "إغلاق"
+    },
     "sideMenu": {
       "close": "إغلاق",
-      "call": "اتصال",
       "whatsapp": "واتساب",
       "location": "الموقع",
       "video": "فيديو"

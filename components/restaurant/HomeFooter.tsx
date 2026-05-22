@@ -1,19 +1,17 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import {
   RESTAURANT_ADDRESS,
   RESTAURANT_FACEBOOK,
+  RESTAURANT_LOCATION_URL,
+  RESTAURANT_PHONE,
   SITE_NAME,
-  SITE_NAME_DE,
 } from "@/lib/constants";
 
 export function HomeFooter() {
   const t = useTranslations("restaurant.footer");
-  const locale = useLocale();
-  const name = locale === "de" ? SITE_NAME_DE : SITE_NAME;
-  const address =
-    locale === "de" ? RESTAURANT_ADDRESS.de : RESTAURANT_ADDRESS.ar;
+  const address = RESTAURANT_ADDRESS.de;
 
   return (
     <footer className="mt-6 space-y-4 px-4 pb-4">
@@ -32,12 +30,25 @@ export function HomeFooter() {
 
       <div className="rounded-2xl border border-white/10 bg-black/55 p-5 text-center backdrop-blur-sm">
         <p className="text-orange-400">{t("visit")}</p>
-        <p className="mt-2 text-white">{address}</p>
+        <a
+          href={RESTAURANT_LOCATION_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 block text-white underline-offset-2 hover:underline"
+        >
+          {address}
+        </a>
+        <a
+          href={`tel:${RESTAURANT_PHONE}`}
+          className="mt-3 block text-sm text-[#f5c518] hover:underline"
+        >
+          {RESTAURANT_PHONE}
+        </a>
       </div>
 
       <div className="pt-2 text-center text-sm text-white/80">
         <p>
-          {name} © {new Date().getFullYear()}
+          {SITE_NAME} © {new Date().getFullYear()}
         </p>
         <p className="mt-1">
           <span>{t("credits")}</span>{" "}

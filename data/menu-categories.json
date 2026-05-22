@@ -1,82 +1,50 @@
 [
   {
-    "id": "cat-western",
-    "slug": "western",
-    "name": { "ar": "الغربي", "de": "Western" },
-    "description": { "ar": "برجر وبطاطا ومأكولات غربية", "de": "Burger, Pommes und westliche Küche" },
-    "image": "https://images.unsplash.com/photo-1568901347635-c4030f9f8426?w=400&h=300&fit=crop",
+    "id": "cat-spaghetti",
+    "slug": "spaghetti",
+    "name": { "ar": "سباغيتي", "de": "Spaghetti" },
+    "description": { "ar": "معكرونة إيطالية طازجة", "de": "Frische italienische Pasta" },
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d7b9?w=400&h=300&fit=crop",
     "order": 1
   },
   {
-    "id": "cat-shawarma",
-    "slug": "shawarma",
-    "name": { "ar": "شاورما", "de": "Shawarma" },
-    "description": { "ar": "شاورما طازجة بأنواعها", "de": "Frische Shawarma-Spezialitäten" },
-    "image": "https://images.unsplash.com/photo-1529006557810-274dbfdd6388?w=400&h=300&fit=crop",
+    "id": "cat-vorspeise",
+    "slug": "vorspeise",
+    "name": { "ar": "مقبلات", "de": "Entrata Vorspeise" },
+    "description": { "ar": "مقبلات إيطالية", "de": "Italienische Vorspeisen" },
+    "image": "https://images.unsplash.com/photo-1608897010294-3813c4e4b289?w=400&h=300&fit=crop",
     "order": 2
   },
   {
-    "id": "cat-lamb-grills",
-    "slug": "lamb-grills",
-    "name": { "ar": "مشاوي خروف", "de": "Lammgrill" },
-    "description": { "ar": "مشاوي خروف على الفحم", "de": "Lammgrill vom Holzkohlegrill" },
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+    "id": "cat-pizza",
+    "slug": "pizza",
+    "name": { "ar": "بيتزا", "de": "Pizza" },
+    "description": { "ar": "بيتزا إيطالية من الفرن", "de": "Pizza aus dem Steinofen" },
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
     "order": 3
   },
   {
-    "id": "cat-chicken-grills",
-    "slug": "chicken-grills",
-    "name": { "ar": "مشاوي دجاج", "de": "Hähnchengrill" },
-    "description": { "ar": "مشاوي دجاج مشوية", "de": "Gegrilltes Hähnchen" },
-    "image": "https://images.unsplash.com/photo-1598103442097-8b74394dd95d?w=400&h=300&fit=crop",
+    "id": "cat-salat",
+    "slug": "salat",
+    "name": { "ar": "سلطات", "de": "Salat" },
+    "description": { "ar": "سلطات طازجة", "de": "Frische Salate" },
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
     "order": 4
   },
   {
-    "id": "cat-kibbeh",
-    "slug": "kibbeh",
-    "name": { "ar": "الكبة", "de": "Kibbeh" },
-    "description": { "ar": "كبة مشوية ومقلية", "de": "Gegrillte und frittierte Kibbeh" },
-    "image": "https://images.unsplash.com/photo-1626200419199-391ae4be7f90?w=400&h=300&fit=crop",
+    "id": "cat-dessert",
+    "slug": "dessert",
+    "name": { "ar": "حلويات", "de": "Dessert" },
+    "description": { "ar": "حلويات إيطالية", "de": "Italienische Desserts" },
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
     "order": 5
   },
   {
-    "id": "cat-chicken",
-    "slug": "chicken",
-    "name": { "ar": "دجاج", "de": "Hähnchen" },
-    "description": { "ar": "أطباق دجاج متنوعة", "de": "Verschiedene Hähnchengerichte" },
-    "image": "https://images.unsplash.com/photo-1598515214211-89d3c706ae83?w=400&h=300&fit=crop",
+    "id": "cat-getraenke",
+    "slug": "getraenke",
+    "name": { "ar": "مشروبات", "de": "Getränke" },
+    "description": { "ar": "مشروبات باردة", "de": "Erfrischungsgetränke" },
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=400&h=300&fit=crop",
     "order": 6
-  },
-  {
-    "id": "cat-oriental",
-    "slug": "oriental",
-    "name": { "ar": "الشرقي", "de": "Orientalisch" },
-    "description": { "ar": "أطباق شرقية تقليدية", "de": "Traditionelle orientalische Gerichte" },
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop",
-    "order": 7
-  },
-  {
-    "id": "cat-mandi",
-    "slug": "mandi",
-    "name": { "ar": "رز المندي", "de": "Mandi-Reis" },
-    "description": { "ar": "مندي لحم ودجاج", "de": "Mandi mit Fleisch und Hähnchen" },
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008592f82?w=400&h=300&fit=crop",
-    "order": 8
-  },
-  {
-    "id": "cat-cocktails",
-    "slug": "cocktails",
-    "name": { "ar": "الكوكتيلات", "de": "Cocktails" },
-    "description": { "ar": "كوكتيلات فواكه طازجة", "de": "Frische Fruchtcocktails" },
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?w=400&h=300&fit=crop",
-    "order": 9
-  },
-  {
-    "id": "cat-juices",
-    "slug": "juices",
-    "name": { "ar": "العصائر", "de": "Säfte" },
-    "description": { "ar": "عصائر طبيعية طازجة", "de": "Frische Natur-Säfte" },
-    "image": "https://images.unsplash.com/photo-1622597467830-2a4d4ae1b8e5?w=400&h=300&fit=crop",
-    "order": 10
   }
 ]

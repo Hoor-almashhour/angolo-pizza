@@ -5,7 +5,6 @@ import { HiPhone, HiLocationMarker, HiPlay } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import {
   RESTAURANT_LOCATION_URL,
-  RESTAURANT_PHONE,
   RESTAURANT_VIDEO,
   RESTAURANT_WHATSAPP,
 } from "@/lib/constants";
@@ -16,7 +15,7 @@ interface SideMenuProps {
 }
 
 const items = [
-  { key: "call" as const, href: `tel:${RESTAURANT_PHONE}`, icon: HiPhone, external: false },
+  
   {
     key: "whatsapp" as const,
     href: RESTAURANT_WHATSAPP,
