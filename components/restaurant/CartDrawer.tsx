@@ -20,9 +20,9 @@ export function CartDrawer() {
         onClick={() => setIsOpen(false)}
         aria-label="Close"
       />
-      <aside className="fixed inset-x-0 bottom-0 z-[70] mx-auto max-h-[75vh] max-w-lg overflow-hidden rounded-t-3xl bg-white shadow-2xl">
+      <aside className="fixed left-1/2 top-1/2 z-[70] flex max-h-[85vh] w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-2xl bg-white shadow-2xl">
         <CartDrawerHeader tr={tr} setIsOpen={setIsOpen} clearCart={clearCart} lines={lines} />
-        <div className="max-h-[50vh] overflow-y-auto px-4 pb-6">
+        <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-4">
           {lines.length === 0 ? (
             <p className="py-8 text-center text-zinc-500">{tr("empty")}</p>
           ) : (

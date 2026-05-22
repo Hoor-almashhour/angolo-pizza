@@ -1,182 +1,50 @@
 [
-  {
-    "id": "item-sh1",
-    "categoryId": "cat-shawarma",
-    "name": { "ar": "أصابع شاورما", "de": "Shawarma-Finger" },
-    "description": { "ar": "شاورما مقطعة مع صلصة خاصة", "de": "Shawarma-Stücke mit Spezialsoße" },
-    "price": 80,
-    "image": "https://images.unsplash.com/photo-1529006557810-274dbfdd6388?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-sh2",
-    "categoryId": "cat-shawarma",
-    "name": { "ar": "شاورما - ساندويتش", "de": "Shawarma-Sandwich" },
-    "description": { "ar": "ساندويتش شاورما كامل", "de": "Vollständiges Shawarma-Sandwich" },
-    "price": 110,
-    "image": "https://images.unsplash.com/photo-1561651183-34bea65f8b9b?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  },
-  {
-    "id": "item-sh3",
-    "categoryId": "cat-shawarma",
-    "name": { "ar": "شاورما - ساندويتش دبل", "de": "Shawarma-Doppel-Sandwich" },
-    "description": { "ar": "كمية مضاعفة من الشاورما", "de": "Doppelte Portion Shawarma" },
-    "price": 150,
-    "image": "https://images.unsplash.com/photo-1594212699903-ef8f743c8838?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 3
-  },
-  {
-    "id": "item-sh4",
-    "categoryId": "cat-shawarma",
-    "name": { "ar": "شاورما مع بطاطا - ساندويتش", "de": "Shawarma mit Pommes" },
-    "description": { "ar": "شاورما مع بطاطا مقلية", "de": "Shawarma mit Pommes frites" },
-    "price": 140,
-    "image": "https://images.unsplash.com/photo-1633321081448-807328e67e20?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 4
-  },
-  {
-    "id": "item-w1",
-    "categoryId": "cat-western",
-    "name": { "ar": "برجر كلاسيك", "de": "Classic Burger" },
-    "description": { "ar": "لحم بقري مع جبنة وخضار", "de": "Rindfleisch mit Käse und Gemüse" },
-    "price": 120,
-    "image": "https://images.unsplash.com/photo-1568901347635-c4030f9f8426?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-w2",
-    "categoryId": "cat-western",
-    "name": { "ar": "بطاطا مقلية", "de": "Pommes frites" },
-    "description": { "ar": "بطاطا مقرمشة", "de": "Knusprige Pommes" },
-    "price": 45,
-    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  },
-  {
-    "id": "item-lg1",
-    "categoryId": "cat-lamb-grills",
-    "name": { "ar": "كباب خروف", "de": "Lamm-Kebab" },
-    "description": { "ar": "4 أسياخ لحم خروف", "de": "4 Spieße Lammfleisch" },
-    "price": 280,
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-lg2",
-    "categoryId": "cat-lamb-grills",
-    "name": { "ar": "ريش خروف", "de": "Lammkoteletts" },
-    "description": { "ar": "ريش مشوية على الفحم", "de": "Vom Grill gegrillte Koteletts" },
-    "price": 320,
-    "image": "https://images.unsplash.com/photo-1529692236671-f1f6c968fd66?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  },
-  {
-    "id": "item-cg1",
-    "categoryId": "cat-chicken-grills",
-    "name": { "ar": "شيش طاووق", "de": "Shish Tawook" },
-    "description": { "ar": "دجاج متبل مشوي", "de": "Gewürztes gegrilltes Hähnchen" },
-    "price": 180,
-    "image": "https://images.unsplash.com/photo-1598103442097-8b74394dd95d?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-cg2",
-    "categoryId": "cat-chicken-grills",
-    "name": { "ar": "أجنحة دجاج", "de": "Hähnchenflügel" },
-    "description": { "ar": "أجنحة مشوية بالصلصة", "de": "Gegrillte Flügel mit Soße" },
-    "price": 95,
-    "image": "https://images.unsplash.com/photo-1608039819574-09f27f4e1f43?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  },
-  {
-    "id": "item-kb1",
-    "categoryId": "cat-kibbeh",
-    "name": { "ar": "كبة مشوية", "de": "Gegrillte Kibbeh" },
-    "description": { "ar": "كبة لحم على الفحم", "de": "Fleisch-Kibbeh vom Grill" },
-    "price": 90,
-    "image": "https://images.unsplash.com/photo-1626200419199-391ae4be7f90?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-ch1",
-    "categoryId": "cat-chicken",
-    "name": { "ar": "دجاجة مشوية كاملة", "de": "Ganzes Grillhähnchen" },
-    "description": { "ar": "دجاجة كاملة مع ثوم", "de": "Ganzes Hähnchen mit Knoblauch" },
-    "price": 250,
-    "image": "https://images.unsplash.com/photo-1598515214211-89d3c706ae83?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-or1",
-    "categoryId": "cat-oriental",
-    "name": { "ar": "يبرق ورق عنب", "de": "Gefüllte Weinblätter" },
-    "description": { "ar": "ورق عنب محشي بالأرز", "de": "Mit Reis gefüllte Weinblätter" },
-    "price": 75,
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-mn1",
-    "categoryId": "cat-mandi",
-    "name": { "ar": "مندي لحم", "de": "Mandi mit Fleisch" },
-    "description": { "ar": "أرز مندي مع لحم غنم", "de": "Mandi-Reis mit Lamm" },
-    "price": 220,
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008592f82?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-mn2",
-    "categoryId": "cat-mandi",
-    "name": { "ar": "مندي دجاج", "de": "Mandi mit Hähnchen" },
-    "description": { "ar": "أرز مندي مع دجاج", "de": "Mandi-Reis mit Hähnchen" },
-    "price": 160,
-    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  },
-  {
-    "id": "item-ck1",
-    "categoryId": "cat-cocktails",
-    "name": { "ar": "كوكتيل فواكه", "de": "Fruchtcocktail" },
-    "description": { "ar": "مزيج فواكه موسمية", "de": "Saisonale Fruchtmischung" },
-    "price": 65,
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-ju1",
-    "categoryId": "cat-juices",
-    "name": { "ar": "عصير برتقال", "de": "Orangensaft" },
-    "description": { "ar": "معصور طازج", "de": "Frisch gepresst" },
-    "price": 40,
-    "image": "https://images.unsplash.com/photo-1621506289937-a8e4fd54eb30?w=200&h=200&fit=crop",
-    "featured": true,
-    "order": 1
-  },
-  {
-    "id": "item-ju2",
-    "categoryId": "cat-juices",
-    "name": { "ar": "عصير ليمون بالنعناع", "de": "Zitronen-Minzsaft" },
-    "description": { "ar": "منعش وطبيعي", "de": "Erfrischend und natürlich" },
-    "price": 45,
-    "image": "https://images.unsplash.com/photo-1622597467830-2a4d4ae1b8e5?w=200&h=200&fit=crop",
-    "featured": false,
-    "order": 2
-  }
+  {"id":"item-01","categoryId":"cat-spaghetti","name":{"ar":"1. تالياتيلي دي مانزو","de":"1. Tagliatelle di Manzo"},"description":{"ar":"شرائح عجل، فلفل، صلصة طماطم كريمية","de":"Kalbstreifen, Paprika, Tomatensahnesauce"},"price":12.5,"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d7b9?w=200&h=200&fit=crop","featured":true,"order":1},
+  {"id":"item-02","categoryId":"cat-spaghetti","name":{"ar":"2. تالياتيلي دي ماري","de":"2. Tagliatelle di Mare"},"description":{"ar":"مأكولات بحرية، جمبري، صلصة كريمة","de":"Meeresfrüchte, Garnelen, versch. Meeresfrüchten Sahnesauce"},"price":14.9,"image":"https://images.unsplash.com/photo-1563379926898-05f4575a58d8?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-03","categoryId":"cat-spaghetti","name":{"ar":"3. سباغيتي دي سكامبي","de":"3. Spaghetti di Scampi"},"description":{"ar":"بصلصة الطماطم والكريمة","de":"an Tomaten-Sahne Sauce"},"price":12.9,"image":"https://images.unsplash.com/photo-1563379926898-05f4575a58d8?w=200&h=200&fit=crop","featured":false,"order":3},
+  {"id":"item-04","categoryId":"cat-spaghetti","name":{"ar":"4. سباغيتي مع سلمون","de":"4. Spaghetti mit Lachsstreifen"},"description":{"ar":"صلصة عسل وفلفل حار","de":"in würzig-süßer Honig-Chilli-Sauce"},"price":13.5,"image":"https://images.unsplash.com/photo-1473093295045-ddd0c2d3663e?w=200&h=200&fit=crop","featured":false,"order":4},
+  {"id":"item-05","categoryId":"cat-spaghetti","name":{"ar":"5. بيني بوراتا","de":"5. Penne Burrata"},"description":{"ar":"بوراتا، صنوبر، بيستو ريحان ونعناع","de":"Burrata, Pinienkerne, Basilikum-Minz-Pesto, Chiliflocken"},"price":11.5,"image":"https://images.unsplash.com/photo-1645112411341-6c4fd023314a?w=200&h=200&fit=crop","featured":false,"order":5},
+  {"id":"item-06","categoryId":"cat-spaghetti","name":{"ar":"6. سباغيتي بومودورو","de":"6. Spaghetti Pomodoro"},"description":{"ar":"صلصة طماطم، طماطم كرزية، ثوم","de":"Tomatensauce, Cherrytomaten, Knoblauch"},"price":8.5,"image":"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=200&h=200&fit=crop","featured":false,"order":6},
+  {"id":"item-07","categoryId":"cat-spaghetti","name":{"ar":"7. بيني أرابياتا","de":"7. Penne all' Arrabbiata"},"description":{"ar":"طماطم، ثوم، فلفل حار، ريحان، بارميزان","de":"Tomaten, Knoblauch, Chiliflocken, Basilikum, Parmesan"},"price":11.5,"image":"https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=200&h=200&fit=crop","featured":false,"order":7},
+  {"id":"item-08","categoryId":"cat-spaghetti","name":{"ar":"8. تالياتيلي متوسطي","de":"8. Tagliatelle Mediterran"},"description":{"ar":"بيستو، فطر، بصل أحمر، طماطم مجففة","de":"Basilikum-Minz-Pesto, Pilze, Rote Zwiebeln, Getrocknete Tomaten"},"price":10.5,"image":"https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=200&h=200&fit=crop","featured":false,"order":8},
+
+  {"id":"item-09","categoryId":"cat-vorspeise","name":{"ar":"9. كابريزي بوراتا","de":"9. Caprese Burrata"},"description":{"ar":"طماطم، بوراتا، كريمة بلسميك","de":"Tomaten, Burrata, Balsamico Creme"},"price":6.5,"image":"https://images.unsplash.com/photo-1608897010294-3813c4e4b289?w=200&h=200&fit=crop","featured":true,"order":1},
+  {"id":"item-10","categoryId":"cat-vorspeise","name":{"ar":"10. كارباتشيو","de":"10. Carpaccio"},"description":{"ar":"لحم بقر، جرجير، بارميزان، صنوبر، ليمون، خبز منزلي","de":"Rinderfilet, Rucola, Parmesan, Pinienkerne, Zitrone, Balsamico Creme, Hausgemachtes Brot"},"price":10.5,"image":"https://images.unsplash.com/photo-1432130431687-312b9889ed45?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-11","categoryId":"cat-vorspeise","name":{"ar":"11. فيتيلو توناتو","de":"11. Vitello Tonnato"},"description":{"ar":"عجل، كريمة تونة، كبر، ليمون، زيت زيتون","de":"Kalbfleisch, Thunfisch-Creme, Kapern, Zitrone, Olivenöl, Hausgemachtes Brot"},"price":11.5,"image":"https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=200&fit=crop","featured":false,"order":3},
+  {"id":"item-14","categoryId":"cat-vorspeise","name":{"ar":"14. تارتار متوسطي","de":"12. Mediterranes Tartar"},"description":{"ar":"مع خضار مشوية","de":"mit Grillgemüse"},"price":7.5,"image":"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=200&fit=crop","featured":false,"order":6},
+
+  {"id":"item-15","categoryId":"cat-pizza","name":{"ar":"15. بيتزا تونو","de":"15. Pizza Tonno"},"description":{"ar":"طماطم، موزاريلا، تونة، بصل أحمر، فلفل","de":"Tomatensauce, Mozzarella, Thunfisch, Rote Zwiebeln, Chilli"},"price":11.0,"image":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=200&fit=crop","featured":true,"order":1},
+  {"id":"item-16","categoryId":"cat-pizza","name":{"ar":"16. بيتزا مارغريتا","de":"16. Pizza Margherita"},"description":{"ar":"طماطم، موزاريلا، ريحان، زيت زيتون","de":"Tomatensauce, Mozzarella, Basilikum, Olivenöl"},"price":8.5,"image":"https://images.unsplash.com/photo-1574071318508-1cdbab80a002?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-17","categoryId":"cat-pizza","name":{"ar":"17. بيتزا فونغي","de":"17. Pizza Funghi"},"description":{"ar":"طماطم، موزاريلا، فطر موسمي، ريحان","de":"Tomatensauce, Mozzarella, Saisonale Pilze, Basilikum"},"price":10.0,"image":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=200&fit=crop","featured":false,"order":3},
+  {"id":"item-18","categoryId":"cat-pizza","name":{"ar":"18. بيتزا أنجولو","de":"18. Pizza Angolo"},"description":{"ar":"طماطم، موزاريلا، خضار مشوية، بصل، طماطم كرزية","de":"Tomatensauce, Mozzarella, Gegrilltes Gemüse, Rote Zwiebeln, Cherrytomaten"},"price":10.0,"image":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop","featured":false,"order":4},
+  {"id":"item-19","categoryId":"cat-pizza","name":{"ar":"19. بيتزا بوراتا","de":"19. Pizza Burrata"},"description":{"ar":"طماطم، موزاريلا، جرجير، بوراتا، زيت زيتون","de":"Tomatensauce, Mozzarella, Rucola, Cherrytomaten, Burrata, Olivenöl"},"price":10.9,"image":"https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop","featured":false,"order":5},
+  {"id":"item-20","categoryId":"cat-pizza","name":{"ar":"20. بيتزا سلامي","de":"20. Pizza Salami +"},"description":{"ar":"طماطم، موزاريلا، سلامي، ريحان","de":"Tomatensauce, Mozzarella, Salami, Basilikum"},"price":10.0,"image":"https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&h=200&fit=crop","featured":false,"order":6},
+  {"id":"item-21","categoryId":"cat-pizza","name":{"ar":"21. بيتزا سلامي حار","de":"21. Pizza Scharf Salami"},"description":{"ar":"طماطم، موزاريلا، سلامي حار، ريحان","de":"Tomatensauce, Mozzarella, Scharfe Salami, Basilikum"},"price":11.0,"image":"https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&h=200&fit=crop","featured":false,"order":7},
+  {"id":"item-22","categoryId":"cat-pizza","name":{"ar":"22. بيتزا مورتاديلا بوراتا","de":"22. Pizza Mortadella / Burrata"},"description":{"ar":"طماطم، موزاريلا، مورتاديلا","de":"Tomatensauce, Mozzarella, Mortadella"},"price":12.0,"image":"https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop","featured":false,"order":8},
+  {"id":"item-23","categoryId":"cat-pizza","name":{"ar":"23. بيتزا بيستو بوراتا","de":"23. Pizza pesto burrata"},"description":{"ar":"موزاريلا، صلصة بيستو، طماطم كرزية","de":"Mozzarella mit Pesto-Sauce, Kirschtomaten (optional)"},"price":11.0,"image":"https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop","featured":false,"order":9},
+  {"id":"item-25","categoryId":"cat-pizza","name":{"ar":"25. بيتزا شرائح عجل","de":"25. Pizza Kalb streifen"},"description":{"ar":"صلصة كريمية، موزاريلا، شرائح عجل، سلطة، ريحان","de":"Cremige Sauce, Mozzarella, Kalbfleischstreifen, Salat, Basilikum"},"price":12.5,"image":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop","featured":false,"order":11},
+
+  {"id":"item-26","categoryId":"cat-salat","name":{"ar":"26. سلطة كاسا","de":"26. Casa Salat"},"description":{"ar":"سلطة مشكلة، طماطم، خيار، بيض، تونة، جبنة، خبز منزلي","de":"Gemischter Salat, Cherrytomaten, Gurke, Ei, Thunfisch, Hirtenkäse, Zitronenvinaigrette, Hausgemachtes Brot"},"price":8.9,"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=200&fit=crop","featured":true,"order":1},
+  {"id":"item-27","categoryId":"cat-salat","name":{"ar":"27. سلطة سلمون","de":"27. Frischer Salat mit Lachs"},"description":{"ar":"سلمون مشوي بصلصة ليمون وعسل","de":"auf der Haut gegrillter Lachs an Limetten-Dijon-Honig-Dressing"},"price":12.50,"image":"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-28","categoryId":"cat-salat","name":{"ar":"28. سلطة متوسطية","de":"28. Mediterraner Salat"},"description":{"ar":"مع خبز منزلي","de":"mit hausgemachtem Brot"},"price":7.90,"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=200&fit=crop","featured":false,"order":3},
+  {"id":"item-29","categoryId":"cat-salat","name":{"ar":"29. سلطة متوسطية بلحم","de":"29. Mediterraner Salat mit Rinderstreifen"},"description":{"ar":"سلطة متوسطية مع شرائح لحم","de":"Mediterraner Salat mit Rinderstreifen"},"price":11.90,"image":"https://images.unsplash.com/photo-1540420773420-3366772f4999?w=200&h=200&fit=crop","featured":false,"order":4},
+  {"id":"item-30","categoryId":"cat-salat","name":{"ar":"30. سلطة سيزر","de":"30. Caesar Salat"},"description":{"ar":"مع صدر دجاج","de":"mit Hähnchenbrust"},"price":10.50,"image":"https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=200&h=200&fit=crop","featured":false,"order":5},
+ 
+
+  {"id":"item-32","categoryId":"cat-dessert","name":{"ar":"32. بانا كوتا","de":"32. Panna Cotta"},"description":{"ar":"مع توت ونعناع","de":"auf Waldbeerspiegel, mit frischen Beeren und Minze"},"price":5.00,"image":"https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&h=200&fit=crop","featured":true,"order":1},
+  {"id":"item-33","categoryId":"cat-dessert","name":{"ar":"33. تيراميسو","de":"33. Tiramisu"},"description":{"ar":"على صلصة شوكولاتة","de":"auf Schokoladensee"},"price":4.50,"image":"https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-34","categoryId":"cat-dessert","name":{"ar":"34. بقلاوة","de":"34. Baklava"},"description":{"ar":"بقلاوة شرقية","de":"Hausgemachte Baklava"},"price":3.00,"image":"https://images.unsplash.com/photo-1598115275834-316c35a13944?w=200&h=200&fit=crop","featured":false,"order":3},
+
+  {"id":"item-36","categoryId":"cat-getraenke","name":{"ar":"36. كوكا كولا","de":"36. Coca cola"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop","featured":false,"order":1},
+  {"id":"item-37","categoryId":"cat-getraenke","name":{"ar":"37. كولا زيرو","de":"37. Cola zero"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop","featured":false,"order":2},
+  {"id":"item-38","categoryId":"cat-getraenke","name":{"ar":"38. كوكا كولا لايت","de":"38. Coca cola Light"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop","featured":false,"order":3},
+  {"id":"item-39","categoryId":"cat-getraenke","name":{"ar":"39. دورست لوشير","de":"39. Durstlöscher"},"description":{"ar":"0.5 لتر","de":"0.5l"},"price":2.00,"image":"https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop","featured":false,"order":4},
+  {"id":"item-40","categoryId":"cat-getraenke","name":{"ar":"40. أولوداغ","de":"40. Uludag"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop","featured":false,"order":5},
+  {"id":"item-41","categoryId":"cat-getraenke","name":{"ar":"41. أولوداغ","de":"41. Uludag"},"description":{"ar":"0.5 لتر","de":"0.5l"},"price":2.50,"image":"https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop","featured":false,"order":6},
+  {"id":"item-42","categoryId":"cat-getraenke","name":{"ar":"42. فانتا","de":"42. Fanta"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop","featured":false,"order":7},
+  {"id":"item-43","categoryId":"cat-getraenke","name":{"ar":"43. ميزو ميكس","de":"43. Mezzo Mix"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop","featured":false,"order":8},
+  {"id":"item-44","categoryId":"cat-getraenke","name":{"ar":"44. عصير تفاح","de":"44. Apfelschorle"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1621506289937-a8e4fd54eb30?w=200&h=200&fit=crop","featured":false,"order":9},
+  {"id":"item-45","categoryId":"cat-getraenke","name":{"ar":"45. سبرايت","de":"45. Sprite"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":2.00,"image":"https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop","featured":false,"order":10},
+  {"id":"item-46","categoryId":"cat-getraenke","name":{"ar":"46. عيران","de":"46. Ayran"},"description":{"ar":"0.25 لتر","de":"0.25l"},"price":1.50,"image":"https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop","featured":false,"order":11},
+  {"id":"item-47","categoryId":"cat-getraenke","name":{"ar":"47. ماء","de":"47. Wasser"},"description":{"ar":"0.33 لتر","de":"0.33l"},"price":1.50,"image":"https://images.unsplash.com/photo-1548839140-29a43b1f1e1c?w=200&h=200&fit=crop","featured":false,"order":12}
 ]

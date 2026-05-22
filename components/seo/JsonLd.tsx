@@ -12,10 +12,15 @@ export function JsonLd({ locale, description }: JsonLdProps) {
     name: locale === "ar" ? SITE_NAME : SITE_NAME_DE,
     url: `${SITE_URL}/${locale}`,
     description,
+    telephone: "+491777215318",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Lichtenfelser Str 49",
+      addressLocality: "Burgkunstadt",
+      addressCountry: "DE",
+    },
     sameAs: [
-      "https://instagram.com",
       "https://facebook.com",
-      "https://linkedin.com",
     ],
   };
 

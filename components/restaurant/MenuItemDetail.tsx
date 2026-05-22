@@ -35,7 +35,7 @@ export function MenuItemDetail({ item, onClose }: MenuItemDetailProps) {
   };
 
   return (
-    <div className="fixed inset-0 z-[80] bg-white">
+    <div className="fixed inset-0 z-[100] bg-white">
       <div className="relative mx-auto flex h-full max-w-lg flex-col">
         <div className="relative h-[42vh] min-h-[240px] w-full shrink-0 bg-zinc-900">
           <Image
