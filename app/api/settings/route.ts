@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/auth";
 import { getSettings, updateSettings } from "@/lib/data-store";
+export const runtime = "nodejs";
 
 export async function GET() {
   const settings = await getSettings();

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/auth";
 import { createService, getServices } from "@/lib/data-store";
-
+export const runtime = "nodejs";
 export async function GET() {
   const services = await getServices();
   return NextResponse.json(services);

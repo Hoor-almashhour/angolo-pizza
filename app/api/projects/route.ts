@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/auth";
 import { createProject, getProjects } from "@/lib/data-store";
+export const runtime = "nodejs";
 
 export async function GET() {
   const projects = await getProjects();

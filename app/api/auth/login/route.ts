@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyPassword, ADMIN_COOKIE } from "@/lib/auth";
-
+export const runtime = "nodejs";
 export async function POST(request: NextRequest) {
   const { password } = await request.json();
 

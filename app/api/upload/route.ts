@@ -3,6 +3,7 @@ import { writeFile, mkdir } from "fs/promises";
 import path from "path";
 import { v4 as uuidv4 } from "uuid";
 import { isAuthenticated } from "@/lib/auth";
+export const runtime = "nodejs";
 
 export async function POST(request: NextRequest) {
   if (!(await isAuthenticated())) {

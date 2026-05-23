@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/auth";
 import { deleteService, updateService } from "@/lib/data-store";
+export const runtime = "nodejs";
 
 export async function PUT(
   request: NextRequest,
