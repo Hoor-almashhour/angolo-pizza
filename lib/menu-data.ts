@@ -1,0 +1,128 @@
+export type LocalizedText = { ar: string; de: string };
+
+export interface MenuCategory {
+  id: string;
+  slug: string;
+  name: LocalizedText;
+  description: LocalizedText;
+  image: string;
+  order: number;
+}
+
+export interface MenuItem {
+  id: string;
+  categoryId: string;
+  name: LocalizedText;
+  description: LocalizedText;
+  price: number;
+  image: string;
+  featured: boolean;
+  order: number;
+}
+
+export const MENU_CATEGORIES: MenuCategory[] = [
+  {
+    id: "cat-spaghetti",
+    slug: "spaghetti",
+    name: { ar: "سباغيتي", de: "Spaghetti" },
+    description: { ar: "معكرونة إيطالية طازجة", de: "Frische italienische Pasta" },
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d7b9?w=400&h=300&fit=crop",
+    order: 1,
+  },
+  {
+    id: "cat-vorspeise",
+    slug: "vorspeise",
+    name: { ar: "مقبلات", de: "Entrata Vorspeise" },
+    description: { ar: "مقبلات إيطالية", de: "Italienische Vorspeisen" },
+    image: "https://images.unsplash.com/photo-1608897010294-3813c4e4b289?w=400&h=300&fit=crop",
+    order: 2,
+  },
+  {
+    id: "cat-pizza",
+    slug: "pizza",
+    name: { ar: "بيتزا", de: "Pizza" },
+    description: { ar: "بيتزا إيطالية من الفرن", de: "Pizza aus dem Steinofen" },
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
+    order: 3,
+  },
+  {
+    id: "cat-salat",
+    slug: "salat",
+    name: { ar: "سلطات", de: "Salat" },
+    description: { ar: "سلطات طازجة", de: "Frische Salate" },
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
+    order: 4,
+  },
+  {
+    id: "cat-dessert",
+    slug: "dessert",
+    name: { ar: "حلويات", de: "Dessert" },
+    description: { ar: "حلويات إيطالية", de: "Italienische Desserts" },
+    image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
+    order: 5,
+  },
+  {
+    id: "cat-getraenke",
+    slug: "getraenke",
+    name: { ar: "مشروبات", de: "Getränke" },
+    description: { ar: "مشروبات باردة", de: "Erfrischungsgetränke" },
+    image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=400&h=300&fit=crop",
+    order: 6,
+  },
+];
+
+export const MENU_ITEMS: MenuItem[] = [
+  // ─── سباغيتي ───────────────────────────────────────────────
+  { id: "item-01", categoryId: "cat-spaghetti", name: { ar: "1. تالياتيلي دي مانزو", de: "1. Tagliatelle di Manzo" }, description: { ar: "شرائح عجل، فلفل، صلصة طماطم كريمية", de: "Kalbstreifen, Paprika, Tomatensahnesauce" }, price: 12.5, image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d7b9?w=200&h=200&fit=crop", featured: true, order: 1 },
+  { id: "item-02", categoryId: "cat-spaghetti", name: { ar: "2. تالياتيلي دي ماري", de: "2. Tagliatelle di Mare" }, description: { ar: "مأكولات بحرية، جمبري، صلصة كريمة", de: "Meeresfrüchte, Garnelen, versch. Meeresfrüchten Sahnesauce" }, price: 14.9, image: "https://images.unsplash.com/photo-1563379926898-05f4575a58d8?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-03", categoryId: "cat-spaghetti", name: { ar: "3. سباغيتي دي سكامبي", de: "3. Spaghetti di Scampi" }, description: { ar: "بصلصة الطماطم والكريمة", de: "an Tomaten-Sahne Sauce" }, price: 12.9, image: "https://images.unsplash.com/photo-1563379926898-05f4575a58d8?w=200&h=200&fit=crop", featured: false, order: 3 },
+  { id: "item-04", categoryId: "cat-spaghetti", name: { ar: "4. سباغيتي مع سلمون", de: "4. Spaghetti mit Lachsstreifen" }, description: { ar: "صلصة عسل وفلفل حار", de: "in würzig-süßer Honig-Chilli-Sauce" }, price: 13.5, image: "https://images.unsplash.com/photo-1473093295045-ddd0c2d3663e?w=200&h=200&fit=crop", featured: false, order: 4 },
+  { id: "item-05", categoryId: "cat-spaghetti", name: { ar: "5. بيني بوراتا", de: "5. Penne Burrata" }, description: { ar: "بوراتا، صنوبر، بيستو ريحان ونعناع", de: "Burrata, Pinienkerne, Basilikum-Minz-Pesto, Chiliflocken" }, price: 11.5, image: "https://images.unsplash.com/photo-1645112411341-6c4fd023314a?w=200&h=200&fit=crop", featured: false, order: 5 },
+  { id: "item-06", categoryId: "cat-spaghetti", name: { ar: "6. سباغيتي بومودورو", de: "6. Spaghetti Pomodoro" }, description: { ar: "صلصة طماطم، طماطم كرزية، ثوم", de: "Tomatensauce, Cherrytomaten, Knoblauch" }, price: 8.5, image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=200&h=200&fit=crop", featured: false, order: 6 },
+  { id: "item-07", categoryId: "cat-spaghetti", name: { ar: "7. بيني أرابياتا", de: "7. Penne all' Arrabbiata" }, description: { ar: "طماطم، ثوم، فلفل حار، ريحان، بارميزان", de: "Tomaten, Knoblauch, Chiliflocken, Basilikum, Parmesan" }, price: 11.5, image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=200&h=200&fit=crop", featured: false, order: 7 },
+  { id: "item-08", categoryId: "cat-spaghetti", name: { ar: "8. تالياتيلي متوسطي", de: "8. Tagliatelle Mediterran" }, description: { ar: "بيستو، فطر، بصل أحمر، طماطم مجففة", de: "Basilikum-Minz-Pesto, Pilze, Rote Zwiebeln, Getrocknete Tomaten" }, price: 10.5, image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=200&h=200&fit=crop", featured: false, order: 8 },
+
+  // ─── مقبلات ────────────────────────────────────────────────
+  { id: "item-09", categoryId: "cat-vorspeise", name: { ar: "9. كابريزي بوراتا", de: "9. Caprese Burrata" }, description: { ar: "طماطم، بوراتا، كريمة بلسميك", de: "Tomaten, Burrata, Balsamico Creme" }, price: 6.5, image: "https://images.unsplash.com/photo-1608897010294-3813c4e4b289?w=200&h=200&fit=crop", featured: true, order: 1 },
+  { id: "item-10", categoryId: "cat-vorspeise", name: { ar: "10. كارباتشيو", de: "10. Carpaccio" }, description: { ar: "لحم بقر، جرجير، بارميزان، صنوبر، ليمون، خبز منزلي", de: "Rinderfilet, Rucola, Parmesan, Pinienkerne, Zitrone, Balsamico Creme, Hausgemachtes Brot" }, price: 10.5, image: "https://images.unsplash.com/photo-1432130431687-312b9889ed45?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-11", categoryId: "cat-vorspeise", name: { ar: "11. فيتيلو توناتو", de: "11. Vitello Tonnato" }, description: { ar: "عجل، كريمة تونة، كبر، ليمون، زيت زيتون", de: "Kalbfleisch, Thunfisch-Creme, Kapern, Zitrone, Olivenöl, Hausgemachtes Brot" }, price: 11.5, image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=200&fit=crop", featured: false, order: 3 },
+  { id: "item-14", categoryId: "cat-vorspeise", name: { ar: "14. تارتار متوسطي", de: "12. Mediterranes Tartar" }, description: { ar: "مع خضار مشوية", de: "mit Grillgemüse" }, price: 7.5, image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=200&fit=crop", featured: false, order: 6 },
+
+  // ─── بيتزا ─────────────────────────────────────────────────
+  { id: "item-15", categoryId: "cat-pizza", name: { ar: "15. بيتزا تونو", de: "15. Pizza Tonno" }, description: { ar: "طماطم، موزاريلا، تونة، بصل أحمر، فلفل", de: "Tomatensauce, Mozzarella, Thunfisch, Rote Zwiebeln, Chilli" }, price: 11.0, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=200&fit=crop", featured: true, order: 1 },
+  { id: "item-16", categoryId: "cat-pizza", name: { ar: "16. بيتزا مارغريتا", de: "16. Pizza Margherita" }, description: { ar: "طماطم، موزاريلا، ريحان، زيت زيتون", de: "Tomatensauce, Mozzarella, Basilikum, Olivenöl" }, price: 8.5, image: "https://images.unsplash.com/photo-1574071318508-1cdbab80a002?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-17", categoryId: "cat-pizza", name: { ar: "17. بيتزا فونغي", de: "17. Pizza Funghi" }, description: { ar: "طماطم، موزاريلا، فطر موسمي، ريحان", de: "Tomatensauce, Mozzarella, Saisonale Pilze, Basilikum" }, price: 10.0, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=200&fit=crop", featured: false, order: 3 },
+  { id: "item-18", categoryId: "cat-pizza", name: { ar: "18. بيتزا أنجولو", de: "18. Pizza Angolo" }, description: { ar: "طماطم، موزاريلا، خضار مشوية، بصل، طماطم كرزية", de: "Tomatensauce, Mozzarella, Gegrilltes Gemüse, Rote Zwiebeln, Cherrytomaten" }, price: 10.0, image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop", featured: false, order: 4 },
+  { id: "item-19", categoryId: "cat-pizza", name: { ar: "19. بيتزا بوراتا", de: "19. Pizza Burrata" }, description: { ar: "طماطم، موزاريلا، جرجير، بوراتا، زيت زيتون", de: "Tomatensauce, Mozzarella, Rucola, Cherrytomaten, Burrata, Olivenöl" }, price: 10.9, image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop", featured: false, order: 5 },
+  { id: "item-20", categoryId: "cat-pizza", name: { ar: "20. بيتزا سلامي", de: "20. Pizza Salami +" }, description: { ar: "طماطم، موزاريلا، سلامي، ريحان", de: "Tomatensauce, Mozzarella, Salami, Basilikum" }, price: 10.0, image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&h=200&fit=crop", featured: false, order: 6 },
+  { id: "item-21", categoryId: "cat-pizza", name: { ar: "21. بيتزا سلامي حار", de: "21. Pizza Scharf Salami" }, description: { ar: "طماطم، موزاريلا، سلامي حار، ريحان", de: "Tomatensauce, Mozzarella, Scharfe Salami, Basilikum" }, price: 11.0, image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&h=200&fit=crop", featured: false, order: 7 },
+  { id: "item-22", categoryId: "cat-pizza", name: { ar: "22. بيتزا مورتاديلا بوراتا", de: "22. Pizza Mortadella / Burrata" }, description: { ar: "طماطم، موزاريلا، مورتاديلا", de: "Tomatensauce, Mozzarella, Mortadella" }, price: 12.0, image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop", featured: false, order: 8 },
+  { id: "item-23", categoryId: "cat-pizza", name: { ar: "23. بيتزا بيستو بوراتا", de: "23. Pizza pesto burrata" }, description: { ar: "موزاريلا، صلصة بيستو، طماطم كرزية", de: "Mozzarella mit Pesto-Sauce, Kirschtomaten (optional)" }, price: 11.0, image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=200&h=200&fit=crop", featured: false, order: 9 },
+  { id: "item-25", categoryId: "cat-pizza", name: { ar: "25. بيتزا شرائح عجل", de: "25. Pizza Kalb streifen" }, description: { ar: "صلصة كريمية، موزاريلا، شرائح عجل، سلطة، ريحان", de: "Cremige Sauce, Mozzarella, Kalbfleischstreifen, Salat, Basilikum" }, price: 12.5, image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop", featured: false, order: 11 },
+
+  // ─── سلطات ─────────────────────────────────────────────────
+  { id: "item-26", categoryId: "cat-salat", name: { ar: "26. سلطة كاسا", de: "26. Casa Salat" }, description: { ar: "سلطة مشكلة، طماطم، خيار، بيض، تونة، جبنة، خبز منزلي", de: "Gemischter Salat, Cherrytomaten, Gurke, Ei, Thunfisch, Hirtenkäse, Zitronenvinaigrette, Hausgemachtes Brot" }, price: 8.9, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=200&fit=crop", featured: true, order: 1 },
+  { id: "item-27", categoryId: "cat-salat", name: { ar: "27. سلطة سلمون", de: "27. Frischer Salat mit Lachs" }, description: { ar: "سلمون مشوي بصلصة ليمون وعسل", de: "auf der Haut gegrillter Lachs an Limetten-Dijon-Honig-Dressing" }, price: 12.5, image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-28", categoryId: "cat-salat", name: { ar: "28. سلطة متوسطية", de: "28. Mediterraner Salat" }, description: { ar: "مع خبز منزلي", de: "mit hausgemachtem Brot" }, price: 7.9, image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=200&fit=crop", featured: false, order: 3 },
+  { id: "item-29", categoryId: "cat-salat", name: { ar: "29. سلطة متوسطية بلحم", de: "29. Mediterraner Salat mit Rinderstreifen" }, description: { ar: "سلطة متوسطية مع شرائح لحم", de: "Mediterraner Salat mit Rinderstreifen" }, price: 11.9, image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=200&h=200&fit=crop", featured: false, order: 4 },
+  { id: "item-30", categoryId: "cat-salat", name: { ar: "30. سلطة سيزر", de: "30. Caesar Salat" }, description: { ar: "مع صدر دجاج", de: "mit Hähnchenbrust" }, price: 10.5, image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=200&h=200&fit=crop", featured: false, order: 5 },
+
+  // ─── حلويات ────────────────────────────────────────────────
+  { id: "item-32", categoryId: "cat-dessert", name: { ar: "32. بانا كوتا", de: "32. Panna Cotta" }, description: { ar: "مع توت ونعناع", de: "auf Waldbeerspiegel, mit frischen Beeren und Minze" }, price: 5.0, image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=200&h=200&fit=crop", featured: true, order: 1 },
+  { id: "item-33", categoryId: "cat-dessert", name: { ar: "33. تيراميسو", de: "33. Tiramisu" }, description: { ar: "على صلصة شوكولاتة", de: "auf Schokoladensee" }, price: 4.5, image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-34", categoryId: "cat-dessert", name: { ar: "34. بقلاوة", de: "34. Baklava" }, description: { ar: "بقلاوة شرقية", de: "Hausgemachte Baklava" }, price: 3.0, image: "https://images.unsplash.com/photo-1598115275834-316c35a13944?w=200&h=200&fit=crop", featured: false, order: 3 },
+
+  // ─── مشروبات ───────────────────────────────────────────────
+  { id: "item-36", categoryId: "cat-getraenke", name: { ar: "36. كوكا كولا", de: "36. Coca cola" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop", featured: false, order: 1 },
+  { id: "item-37", categoryId: "cat-getraenke", name: { ar: "37. كولا زيرو", de: "37. Cola zero" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop", featured: false, order: 2 },
+  { id: "item-38", categoryId: "cat-getraenke", name: { ar: "38. كوكا كولا لايت", de: "38. Coca cola Light" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1554866582-cd813bea154f?w=200&h=200&fit=crop", featured: false, order: 3 },
+  { id: "item-39", categoryId: "cat-getraenke", name: { ar: "39. دورست لوشير", de: "39. Durstlöscher" }, description: { ar: "0.5 لتر", de: "0.5l" }, price: 2.0, image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop", featured: false, order: 4 },
+  { id: "item-40", categoryId: "cat-getraenke", name: { ar: "40. أولوداغ", de: "40. Uludag" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop", featured: false, order: 5 },
+  { id: "item-41", categoryId: "cat-getraenke", name: { ar: "41. أولوداغ", de: "41. Uludag" }, description: { ar: "0.5 لتر", de: "0.5l" }, price: 2.5, image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop", featured: false, order: 6 },
+  { id: "item-42", categoryId: "cat-getraenke", name: { ar: "42. فانتا", de: "42. Fanta" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop", featured: false, order: 7 },
+  { id: "item-43", categoryId: "cat-getraenke", name: { ar: "43. ميزو ميكس", de: "43. Mezzo Mix" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop", featured: false, order: 8 },
+  { id: "item-44", categoryId: "cat-getraenke", name: { ar: "44. عصير تفاح", de: "44. Apfelschorle" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1621506289937-a8e4fd54eb30?w=200&h=200&fit=crop", featured: false, order: 9 },
+  { id: "item-45", categoryId: "cat-getraenke", name: { ar: "45. سبرايت", de: "45. Sprite" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 2.0, image: "https://images.unsplash.com/photo-1625772299848-391b5f2b2f1e?w=200&h=200&fit=crop", featured: false, order: 10 },
+  { id: "item-46", categoryId: "cat-getraenke", name: { ar: "46. عيران", de: "46. Ayran" }, description: { ar: "0.25 لتر", de: "0.25l" }, price: 1.5, image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef84?w=200&h=200&fit=crop", featured: false, order: 11 },
+  { id: "item-47", categoryId: "cat-getraenke", name: { ar: "47. ماء", de: "47. Wasser" }, description: { ar: "0.33 لتر", de: "0.33l" }, price: 1.5, image: "https://images.unsplash.com/photo-1548839140-29a43b1f1e1c?w=200&h=200&fit=crop", featured: false, order: 12 },
+];
