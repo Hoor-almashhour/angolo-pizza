@@ -18,12 +18,17 @@ export async function generateStaticParams() {
   }));
 }
 
+type Props = {
+  params: Promise<{
+    locale: string;
+    slug: string;
+  }>;
+};
+
 export default async function MenuCategoryPage({
   params,
-}: {
-  params: { locale: string; slug: string };
-}) {
-  const { locale, slug } = params;
+}: Props) {
+  const { locale, slug } = await params;
 
   setRequestLocale(locale);
 

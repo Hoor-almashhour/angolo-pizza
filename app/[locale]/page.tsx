@@ -4,12 +4,16 @@ import { getMenuCategories } from "@/lib/menu";
 import { CategoryCard } from "@/components/restaurant/CategoryCard";
 import { HomeFooter } from "@/components/restaurant/HomeFooter";
 
+type Props = {
+  params: Promise<{
+    locale: string;
+  }>;
+};
+
 export default async function HomePage({
   params,
-}: {
-  params: { locale: string };
-}) {
-  const { locale } = params;
+}: Props) {
+  const { locale } = await params;
 
   setRequestLocale(locale);
 
