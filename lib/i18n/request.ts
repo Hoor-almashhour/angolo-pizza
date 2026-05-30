@@ -12,7 +12,7 @@ const messagesMap = {
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
 
-  // 🔥 حماية قوية ضد undefined
+  
   if (!locale || !["ar", "de"].includes(locale)) {
     locale = routing.defaultLocale;
   }
